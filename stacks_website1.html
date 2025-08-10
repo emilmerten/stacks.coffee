@@ -1,149 +1,140 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
-{\colortbl;\red255\green255\blue255;\red135\green5\blue129;\red151\green0\blue126;\red0\green0\blue0;
-\red111\green90\blue30;\red181\green0\blue19;\red13\green100\blue1;}
-{\*\expandedcolortbl;;\cssrgb\c60784\c13725\c57647;\cssrgb\c66667\c5098\c56863;\csgray\c0;
-\cssrgb\c51373\c42353\c15686;\cssrgb\c76863\c10196\c8627;\cssrgb\c0\c45490\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stacks Coffee</title>
 
-\f0\fs26 \cf2 <!doctype \cf3 html\cf2 >\cf4 \
-\cf3 <html \cf5 lang\cf3 =\cf6 "de"\cf3 >\cf4 \
-\cf3 <head>\cf4 \
-  \cf3 <meta \cf5 charset\cf3 =\cf6 "utf-8"\cf3  />\cf4 \
-  \cf3 <meta \cf5 name\cf3 =\cf6 "viewport"\cf3  \cf5 content\cf3 =\cf6 "width=device-width,initial-scale=1"\cf3  />\cf4 \
-  \cf3 <title>\cf4 Stacks Coffee\cf3 </title>\cf4 \
-\
-  \cf7 <!-- Google Font (tall condensed feel) -->\cf4 \
-  \cf3 <link \cf5 href\cf3 =\cf6 "https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600&display=swap"\cf3  \cf5 rel\cf3 =\cf6 "stylesheet"\cf3 >\cf4 \
-\
-  \cf3 <link \cf5 rel\cf3 =\cf6 "stylesheet"\cf3  \cf5 href\cf3 =\cf6 "styles.css"\cf3  />\cf4 \
-\cf3 </head>\cf4 \
-\cf3 <body>\cf4 \
-  \cf7 <!-- Background image (place assets/background.png in your repo) -->\cf4 \
-  \cf3 <div \cf5 class\cf3 =\cf6 "bg-image"\cf3  \cf5 aria-hidden\cf3 =\cf6 "true"\cf3 ></div>\cf4 \
-\
-  \cf7 <!-- Top right small logo + menu -->\cf4 \
-  \cf3 <header \cf5 class\cf3 =\cf6 "topbar"\cf3 >\cf4 \
-    \cf3 <div \cf5 class\cf3 =\cf6 "logo"\cf3 >\cf4 \
-      \cf3 <img \cf5 src\cf3 =\cf6 "assets/logo.png"\cf3  \cf5 alt\cf3 =\cf6 "Stacks Logo"\cf3  />\cf4 \
-    \cf3 </div>\cf4 \
-    \cf3 <nav \cf5 class\cf3 =\cf6 "menu"\cf3  \cf5 aria-label\cf3 =\cf6 "Hauptnavigation"\cf3 >\cf4 \
-      \cf3 <button \cf5 id\cf3 =\cf6 "menuToggle"\cf3  \cf5 aria-expanded\cf3 =\cf6 "false"\cf3 >\cf4 \uc0\u9776 \cf3 </button>\cf4 \
-      \cf3 <ul \cf5 id\cf3 =\cf6 "menuList"\cf3  \cf5 class\cf3 =\cf6 "menu-list"\cf3  \cf5 hidden\cf3 >\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "home"\cf3 >\cf4 Homepage\cf3 </a></li>\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "shop"\cf3 >\cf4 Shop\cf3 </a></li>\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "barista"\cf3 >\cf4 Barista-Kurse\cf3 </a></li>\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "events"\cf3 >\cf4 Privat-Events\cf3 </a></li>\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "contact"\cf3 >\cf4 Kontakt\cf3 </a></li>\cf4 \
-        \cf3 <li><a \cf5 href\cf3 =\cf6 "#"\cf3  \cf5 data-action\cf3 =\cf6 "impressum"\cf3 >\cf4 Impressum\cf3 </a></li>\cf4 \
-      \cf3 </ul>\cf4 \
-    \cf3 </nav>\cf4 \
-  \cf3 </header>\cf4 \
-\
-  \cf7 <!-- Slide-up panel -->\cf4 \
-  \cf3 <main \cf5 class\cf3 =\cf6 "slideup"\cf3  \cf5 role\cf3 =\cf6 "main"\cf3  \cf5 id\cf3 =\cf6 "slideup"\cf3 >\cf4 \
-    \cf3 <div \cf5 class\cf3 =\cf6 "handle"\cf3 ></div>\cf4 \
-    \cf3 <div \cf5 class\cf3 =\cf6 "panel-content"\cf3 >\cf4 \
-      \cf3 <h1 \cf5 class\cf3 =\cf6 "panel-title"\cf3 >\cf4 Stacks\cf3 </h1>\cf4 \
-      \cf3 <p \cf5 class\cf3 =\cf6 "panel-sub"\cf3 >\cf4 Echter Kaffee. Kurse. Events. Shop.\cf3 </p>\cf4 \
-\
-      \cf7 <!-- Three Orange Bubbles -->\cf4 \
-      \cf3 <div \cf5 class\cf3 =\cf6 "bubbles"\cf3 >\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "bubble"\cf3  \cf5 data-open\cf3 =\cf6 "barista"\cf3  \cf5 aria-label\cf3 =\cf6 "Barista-Kurse"\cf3 >\cf4 Barista\uc0\u8209 Kurse\cf3 </button>\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "bubble"\cf3  \cf5 data-open\cf3 =\cf6 "events"\cf3  \cf5 aria-label\cf3 =\cf6 "Privat\uc0\u8209 Events"\cf3 >\cf4 Privat\uc0\u8209 Events\cf3 </button>\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "bubble"\cf3  \cf5 data-open\cf3 =\cf6 "shop"\cf3  \cf5 aria-label\cf3 =\cf6 "Shop"\cf3 >\cf4 Shop\cf3 </button>\cf4 \
-      \cf3 </div>\cf4 \
-\
-      \cf7 <!-- Placeholder for dynamic slides -->\cf4 \
-      \cf3 <div \cf5 id\cf3 =\cf6 "dynamicArea"\cf3  \cf5 class\cf3 =\cf6 "dynamic-area"\cf3 ></div>\cf4 \
-    \cf3 </div>\cf4 \
-  \cf3 </main>\cf4 \
-\
-  \cf7 <!-- Templates (hidden) -->\cf4 \
-  \cf3 <template \cf5 id\cf3 =\cf6 "tpl-barista"\cf3 >\cf4 \
-    \cf3 <section \cf5 class\cf3 =\cf6 "module"\cf3 >\cf4 \
-      \cf3 <h2>\cf4 Barista\uc0\u8209 Kurse\cf3 </h2>\cf4 \
-      \cf3 <p>\cf4 Barista\uc0\u8209 Kurse by \cf3 <strong>\cf4 Martin D\'fcrr\cf3 </strong><br>\cf4 \
-         Eschersheimer Landstra\'dfe 14\cf3 <br>\cf4 \
-         Tel.: \cf3 <em>\cf7 <!-- PHONE_PLACEHOLDER -->\cf3 </em></p>\cf4 \
-\
-      \cf3 <h3>\cf4 Produktvideos (Platzhalter)\cf3 </h3>\cf4 \
-      \cf3 <div \cf5 class\cf3 =\cf6 "videos"\cf3 >\cf4 \
-        \cf3 <div \cf5 class\cf3 =\cf6 "video-card"\cf3 >\cf4 Video 1 (Platzhalter)\cf3 </div>\cf4 \
-        \cf3 <div \cf5 class\cf3 =\cf6 "video-card"\cf3 >\cf4 Video 2 (Platzhalter)\cf3 </div>\cf4 \
-      \cf3 </div>\cf4 \
-\
-      \cf3 <h3>\cf4 Termine\cf3 </h3>\cf4 \
-      \cf3 <div \cf5 class\cf3 =\cf6 "calendar"\cf3  \cf5 id\cf3 =\cf6 "calendar"\cf3 >\cf4 \
-        \cf7 <!-- sample items -->\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "slot"\cf3  \cf5 data-time\cf3 =\cf6 "2025-08-01T10:00"\cf3 >\cf4 01.08.2025 \'97 10:00\cf3 </button>\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "slot"\cf3  \cf5 data-time\cf3 =\cf6 "2025-08-01T14:00"\cf3 >\cf4 01.08.2025 \'97 14:00\cf3 </button>\cf4 \
-        \cf3 <button \cf5 class\cf3 =\cf6 "slot"\cf3  \cf5 data-time\cf3 =\cf6 "2025-08-02T10:00"\cf3 >\cf4 02.08.2025 \'97 10:00\cf3 </button>\cf4 \
-      \cf3 </div>\cf4 \
-\
-      \cf3 <div \cf5 id\cf3 =\cf6 "bookingDetail"\cf3  \cf5 class\cf3 =\cf6 "booking-detail"\cf3  \cf5 hidden\cf3 >\cf4 \
-        \cf3 <h4>\cf4 Buchungsdetails\cf3 </h4>\cf4 \
-        \cf3 <p \cf5 class\cf3 =\cf6 "bd-time"\cf3 ></p>\cf4 \
-        \cf3 <p>\cf4 Preis: \cf3 <strong>\cf4 \'80 49\cf3 </strong>\cf4  (Platzhalter)\cf3 </p>\cf4 \
-        \cf3 <div \cf5 class\cf3 =\cf6 "payment"\cf3 >\cf4 \
-          \cf7 <!-- PayPal button placeholder -->\cf4 \
-          \cf3 <div \cf5 id\cf3 =\cf6 "paypal-button-container"\cf3 ></div>\cf4 \
-\
-          \cf7 <!-- Bank\'fcberweisung fallback -->\cf4 \
-          \cf3 <div \cf5 class\cf3 =\cf6 "bank-transfer"\cf3 >\cf4 \
-            \cf3 <p>\cf4 Zahle per \'dcberweisung an:\cf3 </p>\cf4 \
-            \cf3 <p>\cf4 Kontoinhaber: \cf3 <em>\cf4 Stacks Coffee\cf3 </em></p>\cf4 \
-            \cf3 <p>\cf4 IBAN: \cf3 <em>\cf7 <!-- IBAN_PLACEHOLDER -->\cf3 </em></p>\cf4 \
-            \cf3 <p>\cf4 BIC: \cf3 <em>\cf7 <!-- BIC_PLACEHOLDER -->\cf3 </em></p>\cf4 \
-            \cf3 <button \cf5 class\cf3 =\cf6 "mark-paid"\cf3 >\cf4 Als bezahlt markieren (Test)\cf3 </button>\cf4 \
-          \cf3 </div>\cf4 \
-        \cf3 </div>\cf4 \
-      \cf3 </div>\cf4 \
-    \cf3 </section>\cf4 \
-  \cf3 </template>\cf4 \
-\
-  \cf3 <template \cf5 id\cf3 =\cf6 "tpl-events"\cf3 >\cf4 \
-    \cf3 <section \cf5 class\cf3 =\cf6 "module"\cf3 >\cf4 \
-      \cf3 <h2>\cf4 Privat\uc0\u8209 Events\cf3 </h2>\cf4 \
-      \cf3 <form \cf5 id\cf3 =\cf6 "eventForm"\cf3  \cf5 class\cf3 =\cf6 "contact-form"\cf3 >\cf4 \
-        \cf3 <label>\cf4 Anliegen \cf3 <textarea \cf5 name\cf3 =\cf6 "anliegen"\cf3  \cf5 required\cf3 ></textarea></label>\cf4 \
-        \cf3 <label>\cf4 Name \cf3 <input \cf5 name\cf3 =\cf6 "name"\cf3  \cf5 type\cf3 =\cf6 "text"\cf3  \cf5 required\cf3 ></label>\cf4 \
-        \cf3 <label>\cf4 Inhalt / Beschreibung \cf3 <textarea \cf5 name\cf3 =\cf6 "inhalt"\cf3  \cf5 required\cf3 ></textarea></label>\cf4 \
-        \cf3 <label>\cf4 Telefon \cf3 <input \cf5 name\cf3 =\cf6 "phone"\cf3  \cf5 type\cf3 =\cf6 "tel"\cf3  \cf5 required\cf3 ></label>\cf4 \
-        \cf3 <button \cf5 type\cf3 =\cf6 "submit"\cf3 >\cf4 Absenden\cf3 </button>\cf4 \
-      \cf3 </form>\cf4 \
-      \cf3 <div \cf5 id\cf3 =\cf6 "eventResult"\cf3  \cf5 class\cf3 =\cf6 "result"\cf3 ></div>\cf4 \
-    \cf3 </section>\cf4 \
-  \cf3 </template>\cf4 \
-\
-  \cf3 <template \cf5 id\cf3 =\cf6 "tpl-shop"\cf3 >\cf4 \
-    \cf3 <section \cf5 class\cf3 =\cf6 "module"\cf3 >\cf4 \
-      \cf3 <h2>\cf4 Shop\cf3 </h2>\cf4 \
-      \cf3 <div \cf5 class\cf3 =\cf6 "products"\cf3 >\cf4 \
-        \cf3 <div \cf5 class\cf3 =\cf6 "product"\cf3  \cf5 data-id\cf3 =\cf6 "p1"\cf3 >\cf4 \
-          \cf3 <img \cf5 src\cf3 =\cf6 "assets/product-placeholder-1.png"\cf3  \cf5 alt\cf3 =\cf6 "Produkt 1"\cf3  />\cf4 \
-          \cf3 <div \cf5 class\cf3 =\cf6 "pmeta"\cf3 ><strong>\cf4 Produkt 1\cf3 </strong><span>\cf4 \'80 9,99\cf3 </span></div>\cf4 \
-        \cf3 </div>\cf4 \
-        \cf3 <div \cf5 class\cf3 =\cf6 "product"\cf3  \cf5 data-id\cf3 =\cf6 "p2"\cf3 >\cf4 \
-          \cf3 <img \cf5 src\cf3 =\cf6 "assets/product-placeholder-2.png"\cf3  \cf5 alt\cf3 =\cf6 "Produkt 2"\cf3  />\cf4 \
-          \cf3 <div \cf5 class\cf3 =\cf6 "pmeta"\cf3 ><strong>\cf4 Produkt 2\cf3 </strong><span>\cf4 \'80 14,99\cf3 </span></div>\cf4 \
-        \cf3 </div>\cf4 \
-      \cf3 </div>\cf4 \
-\
-      \cf3 <div \cf5 id\cf3 =\cf6 "productDetail"\cf3  \cf5 class\cf3 =\cf6 "product-detail"\cf3  \cf5 hidden\cf3 >\cf4 \
-        \cf3 <button \cf5 id\cf3 =\cf6 "closeProduct"\cf3 >\cf4 \uc0\u8592  Zur\'fcck\cf3 </button>\cf4 \
-        \cf3 <h3 \cf5 class\cf3 =\cf6 "pd-title"\cf3 ></h3>\cf4 \
-        \cf3 <p \cf5 class\cf3 =\cf6 "pd-desc"\cf3 >\cf4 Beschreibung (Platzhalter)\cf3 </p>\cf4 \
-        \cf3 <p \cf5 class\cf3 =\cf6 "pd-price"\cf3 >\cf4 Preis: \cf3 <strong>\cf4 \'80 0.00\cf3 </strong></p>\cf4 \
-        \cf3 <div \cf5 id\cf3 =\cf6 "productPayment"\cf3 >\cf4 \
-          \cf3 <div \cf5 id\cf3 =\cf6 "paypal-btn-product"\cf3 ></div>\cf4 \
-          \cf3 <button \cf5 class\cf3 =\cf6 "bank-transfer"\cf3 >\cf4 Zahle per \'dcberweisung\cf3 </button>\cf4 \
-        \cf3 </div>\cf4 \
-      \cf3 </div>\cf4 \
-    \cf3 </section>\cf4 \
-  \cf3 </template>\cf4 \
-\
-  \cf3 <script \cf5 src\cf3 =\cf6 "app.js"\cf3  \cf5 defer\cf3 ></script>\cf4 \
-\cf3 </body>\cf4 \
-\cf3 </html>}
+  <!-- Google Font (tall condensed feel) -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background image (place assets/background.png in your repo) -->
+  <div class="bg-image" aria-hidden="true"></div>
+
+  <!-- Top right small logo + menu -->
+  <header class="topbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Stacks Logo" />
+    </div>
+    <nav class="menu" aria-label="Hauptnavigation">
+      <button id="menuToggle" aria-expanded="false">☰</button>
+      <ul id="menuList" class="menu-list" hidden>
+        <li><a href="#" data-action="home">Homepage</a></li>
+        <li><a href="#" data-action="shop">Shop</a></li>
+        <li><a href="#" data-action="barista">Barista-Kurse</a></li>
+        <li><a href="#" data-action="events">Privat-Events</a></li>
+        <li><a href="#" data-action="contact">Kontakt</a></li>
+        <li><a href="#" data-action="impressum">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Slide-up panel -->
+  <main class="slideup" role="main" id="slideup">
+    <div class="handle"></div>
+    <div class="panel-content">
+      <h1 class="panel-title">Stacks</h1>
+      <p class="panel-sub">Echter Kaffee. Kurse. Events. Shop.</p>
+
+      <!-- Three Orange Bubbles -->
+      <div class="bubbles">
+        <button class="bubble" data-open="barista" aria-label="Barista-Kurse">Barista‑Kurse</button>
+        <button class="bubble" data-open="events" aria-label="Privat‑Events">Privat‑Events</button>
+        <button class="bubble" data-open="shop" aria-label="Shop">Shop</button>
+      </div>
+
+      <!-- Placeholder for dynamic slides -->
+      <div id="dynamicArea" class="dynamic-area"></div>
+    </div>
+  </main>
+
+  <!-- Templates (hidden) -->
+  <template id="tpl-barista">
+    <section class="module">
+      <h2>Barista‑Kurse</h2>
+      <p>Barista‑Kurse by <strong>Martin Dürr</strong><br>
+         Eschersheimer Landstraße 14<br>
+         Tel.: <em><!-- PHONE_PLACEHOLDER --></em></p>
+
+      <h3>Produktvideos (Platzhalter)</h3>
+      <div class="videos">
+        <div class="video-card">Video 1 (Platzhalter)</div>
+        <div class="video-card">Video 2 (Platzhalter)</div>
+      </div>
+
+      <h3>Termine</h3>
+      <div class="calendar" id="calendar">
+        <!-- sample items -->
+        <button class="slot" data-time="2025-08-01T10:00">01.08.2025 — 10:00</button>
+        <button class="slot" data-time="2025-08-01T14:00">01.08.2025 — 14:00</button>
+        <button class="slot" data-time="2025-08-02T10:00">02.08.2025 — 10:00</button>
+      </div>
+
+      <div id="bookingDetail" class="booking-detail" hidden>
+        <h4>Buchungsdetails</h4>
+        <p class="bd-time"></p>
+        <p>Preis: <strong>€ 49</strong> (Platzhalter)</p>
+        <div class="payment">
+          <!-- PayPal button placeholder -->
+          <div id="paypal-button-container"></div>
+
+          <!-- Banküberweisung fallback -->
+          <div class="bank-transfer">
+            <p>Zahle per Überweisung an:</p>
+            <p>Kontoinhaber: <em>Stacks Coffee</em></p>
+            <p>IBAN: <em><!-- IBAN_PLACEHOLDER --></em></p>
+            <p>BIC: <em><!-- BIC_PLACEHOLDER --></em></p>
+            <button class="mark-paid">Als bezahlt markieren (Test)</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-events">
+    <section class="module">
+      <h2>Privat‑Events</h2>
+      <form id="eventForm" class="contact-form">
+        <label>Anliegen <textarea name="anliegen" required></textarea></label>
+        <label>Name <input name="name" type="text" required></label>
+        <label>Inhalt / Beschreibung <textarea name="inhalt" required></textarea></label>
+        <label>Telefon <input name="phone" type="tel" required></label>
+        <button type="submit">Absenden</button>
+      </form>
+      <div id="eventResult" class="result"></div>
+    </section>
+  </template>
+
+  <template id="tpl-shop">
+    <section class="module">
+      <h2>Shop</h2>
+      <div class="products">
+        <div class="product" data-id="p1">
+          <img src="assets/product-placeholder-1.png" alt="Produkt 1" />
+          <div class="pmeta"><strong>Produkt 1</strong><span>€ 9,99</span></div>
+        </div>
+        <div class="product" data-id="p2">
+          <img src="assets/product-placeholder-2.png" alt="Produkt 2" />
+          <div class="pmeta"><strong>Produkt 2</strong><span>€ 14,99</span></div>
+        </div>
+      </div>
+
+      <div id="productDetail" class="product-detail" hidden>
+        <button id="closeProduct">← Zurück</button>
+        <h3 class="pd-title"></h3>
+        <p class="pd-desc">Beschreibung (Platzhalter)</p>
+        <p class="pd-price">Preis: <strong>€ 0.00</strong></p>
+        <div id="productPayment">
+          <div id="paypal-btn-product"></div>
+          <button class="bank-transfer">Zahle per Überweisung</button>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
